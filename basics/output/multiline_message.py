@@ -1,5 +1,5 @@
 #Display message to standard output in multiple lines of code
-print("System failure iminent!")
+print("System failure imminent!")
 print("System Reboot has been initiated...\n")
 print("...rebooting sensoring system")
 print("...rebooting output motors")
