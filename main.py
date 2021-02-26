@@ -1,1 +1,1 @@
-print("Hello Cmputing!")
+print("Solent University!")
