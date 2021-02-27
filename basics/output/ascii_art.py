@@ -1,0 +1,11 @@
+#Display Beep body
+print("               ")
+print("    |`````|    ")
+print("    | @ @ |    ")
+print("   /       \   ")
+print(" |`|       |`| ")
+print(" | |       | | ")
+print("  |         |  ")
+print("  |   ___   |  ")
+print("  |  |   |  |  ")
+print("  |__|   |__|  ")
