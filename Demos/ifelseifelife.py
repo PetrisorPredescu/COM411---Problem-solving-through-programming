@@ -12,4 +12,3 @@ elif len(n) > 6:
 else:
   print("Your name is quite okay")
 print("This is the END of the program")
-
