@@ -1,27 +1,23 @@
-#escape_by("group")
-#escape_by("running around")
-#escape_by("goind deeper")
+def isPrime(x):
+  for i in range(2,x):
+    if x%i == 0:
+      return False
+    return True
 
-#we cannot escape that way! The boulder is too big!
-#we cannot escape that way! The boulder is moving too fast!
-#That might work!Let's go deeper!
+def findPrime(beginning,finish):
+  for j in range(beginning,finish):
+    if isPrime(j):
+      return j
 
-#The is function with a single plan and name is"plan"
+def encrypt():
+  print("Provide two integers")
+  x = int(input())
+  y = int(input())
+  prime1= findPrime(x,y)
+  print("Provide two more integers")
+  x = int(input())
+  y = int(input())
+  prime2 = findPrime(x,y)
+  return prime1*prime2
 
-def escape_by(plan):
-  if(plan == "jumping over"):
-    print("We cannot escape that way, The boulder is too big")
-  elif(plan == "running around"):
-    print("We cannot escape that way! The boulder is moving too fast!")
-  elif(plan == "goind deeper"):
-    print("That might be a good ideea, lets do it!")
-  else:
-    print("not sure about the plan")
-  
-#call the function
-
-#escape_by("jumping over")
-#escape_by("running around")
-#escape_by("going deeper")
-escape_by("lets listen")
-  
+print(encrypt())
