@@ -26,7 +26,14 @@ def print_students(lista):
   for std in lista:
     print(f"{std[0]} earned a grade {std[1]}")
 
-print_students(all_stds())
+def avr_mark(lista):
+  total=0
+  for std in lista:
+    total += std[1]
+  return total/len(lista)
+
+print(avr_mark(all_stds()))
+
 
 
 
