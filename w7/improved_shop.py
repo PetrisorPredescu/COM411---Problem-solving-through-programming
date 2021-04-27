@@ -9,7 +9,7 @@ def shop():
 
 def save_items(items = {}):
   json_database = open("items.json", "w")
-  json.dump(items, json_databse, indent = 4)
+  json.dump(items, json_database, indent = 4)
   json.database.close()
 
 def view_all(products={}):
